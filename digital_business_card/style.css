@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #23252C;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    
+}
+
+.container {
+    display:flex;
+    flex-flow: column;
+    width: 317px;
+    margin: 44px 116px;
+    background-color: #1A1B21;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+img {
+   height: 317px;
+   width: 317px;
+   border-radius: 10px 10px 0px 0px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header > h1 { 
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.header > h3 {
+    font-weight: normal;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+    margin: 6px 0 0 0;
+}
+
+.header > p {
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: center;
+    color: #F5F5F5;
+    margin: 8px 0 15px 0;
+}
+
+
+.email {
+    /* white */
+    background: #FFFFFF;
+    /* gray/300 */
+    border: 1px solid #D1D5DB;
+    box-sizing: border-box;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    margin-right: 17px;
+    width: 115px;
+    height: 34px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.email > img {
+    width: 14px;
+    height: 12px;
+    margin-right: 10px;
+    border-radius: 0;
+}
+
+.linkedin {
+    background: #5093E2;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    width: 115px;
+    height: 34px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.linkedin > img {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    border-radius: 0;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.about > h2 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    color: #F5F5F5;
+    margin: 33px 0 5px 36px;
+}
+
+.about > p {
+    margin: 0 0 0% 36px;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+    color: #DCDCDC;
+}
+
+footer {
+    height: 64px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    margin: 24px 74px 20px 74px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+footer img {
+    width: 25px;
+    height: 25px;
+    border-radius: 0;
+}
