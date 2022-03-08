@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-flow: row;
+    align-items: baseline;
+    width: 550px;
+    height: 65px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: #FFFFFF;
+    justify-content: space-around;
+}
+
+.header--logo {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    
+}
+
+header h1 {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20.7482px;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+}
+
+header h2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+}
+
+header img{
+    width: 31.31px;
+    height: 26.22px;
+    margin: 20px 0;
+}
