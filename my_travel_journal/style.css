@@ -7,7 +7,7 @@ body {
     font-family: Inter;
 }
 header {
-    background: #F55A5A;
+    background: green;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
